@@ -88,8 +88,8 @@ def shop():
                     price += i[1]
                 print('总价',price)
             print('可以购买\n', shopping_list)
-            ensure = int(input('您是否直接结算？'
-                           '1.结算'
+            ensure = int(input('您是否直接结算？\n'
+                           '1.结算\n'
                            '2.继续购物'))
             if ensure == 1:
                 print('此次共消费：', price)
